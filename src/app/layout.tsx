@@ -1,5 +1,4 @@
-import { Footer, Navbar } from "@/components/layout";
-import { usePathname } from "next/navigation";
+import { ClientLayout } from "@/components/layouts";
 
 import type { Metadata } from "next";
 import "./globals.css";
@@ -19,17 +18,10 @@ export const metadata: Metadata = {
  * @returns {JSX.Element} - The root layout structure.
  */
 function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-
-  // Check if the current route is an admin route
-  const pathname = usePathname();
-  const isAdminRoute = pathname.startsWith("/admin");
-
   return (
     <html lang="en">
       <body>
-        {!isAdminRoute && <Navbar />} {/* Hide Navbar on '/admin' routes */}
-        {children}
-        {!isAdminRoute && <Footer />} {/* Hide Footer on '/admin' routes */}
+       <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );

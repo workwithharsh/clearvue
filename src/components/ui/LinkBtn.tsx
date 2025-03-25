@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ButtonHTMLAttributes } from "react";
+import React, { ButtonHTMLAttributes } from "react";
 
 interface LinkBtnProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   href: string;
@@ -7,9 +7,9 @@ interface LinkBtnProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
 }
 
-export default function LinkBtn({ href, children, className, ...props }: LinkBtnProps) {
+function LinkBtn({ href, children, className = "", ...props }: LinkBtnProps) {
   return (
-    <Link href={href} passHref>
+    <Link href={href}>
       <button
         className={`px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition ${className}`}
         {...props}
@@ -19,3 +19,5 @@ export default function LinkBtn({ href, children, className, ...props }: LinkBtn
     </Link>
   );
 }
+
+export default LinkBtn

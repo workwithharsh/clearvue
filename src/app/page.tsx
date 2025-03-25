@@ -1,5 +1,10 @@
 import { CallToAction, Category, Faq, FeaturedProducts, Hero, NewArrivals, Services, Testimonial } from "@/components/sections";
 
+/**
+ * Home page structure component for route '/'
+ * 
+ * @returns {JSX.Element}
+ */
 function HomePage() {
   return (
     <main>
@@ -9,8 +14,8 @@ function HomePage() {
       <NewArrivals />
       <FeaturedProducts />
       <Testimonial />
-      <Faq/>
-      <CallToAction/>
+      <Faq />
+      <CallToAction />
     </main>
   );
 }

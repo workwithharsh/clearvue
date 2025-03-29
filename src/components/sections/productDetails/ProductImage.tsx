@@ -1,7 +1,7 @@
 
 function ProductImage() {
   return (
-    <div>ProductImage</div>
+    <section>ProductImage</section>
   )
 }
 

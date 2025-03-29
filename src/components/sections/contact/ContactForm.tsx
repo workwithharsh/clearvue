@@ -1,7 +1,7 @@
 
 function ContactForm() {
   return (
-    <div>ContactForm</div>
+    <section>ContactForm</section>
   )
 }
 

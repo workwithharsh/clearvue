@@ -29,10 +29,29 @@ import RelatedProducts from "./sections/productDetails/RelatedProducts";
 import CallToAction from "./sections/shared/CallToAction";
 import Faq from "./sections/shared/Faq";
 import OurStore from "./sections/shared/OurStore";
-import Testimonial from "./sections/shared/Testimonial";
 
 /**
  * Export all sections.
  */
-export { BrandStory, CallToAction, Category, ContactForm, ContactInfo, Faq, FeaturedProducts, Hero, MeetOwner, NewArrivals, OurStore, ProductFilters, ProductImage, ProductInfo, ProductShowcase, RelatedProducts, Services, ShopHero, Testimonial, WhyChooseUs };
+export {
+    BrandStory,
+    CallToAction,
+    Category,
+    ContactForm,
+    ContactInfo,
+    Faq,
+    FeaturedProducts,
+    Hero,
+    MeetOwner,
+    NewArrivals,
+    OurStore,
+    ProductFilters,
+    ProductImage,
+    ProductInfo,
+    ProductShowcase,
+    RelatedProducts,
+    Services,
+    ShopHero,
+    WhyChooseUs
+};
 

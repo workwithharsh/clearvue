@@ -1,7 +1,7 @@
 
 function MeetOwner() {
   return (
-    <div>MeetOwner</div>
+    <section>MeetOwner</section>
   )
 }
 

@@ -15,7 +15,7 @@ import { usePathname } from "next/navigation";
  */
 function ClientLayout({ children, }: { children: React.ReactNode; }) {
     const pathname = usePathname();
-    const isAdminRoute = pathname.startsWith("/admin");
+    const isAdminRoute = pathname.startsWith(`/${process.env.NEXT_PUBLIC_ADMIN_ROUTE_PATH}`);
 
     return (
         <>

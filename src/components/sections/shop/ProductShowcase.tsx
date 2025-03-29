@@ -1,7 +1,7 @@
 
 function ProductShowcase() {
   return (
-    <div>ProductShowcase</div>
+    <section>ProductShowcase</section>
   )
 }
 

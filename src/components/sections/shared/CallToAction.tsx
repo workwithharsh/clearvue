@@ -1,7 +1,7 @@
 
 function CallToAction() {
   return (
-    <div>CallToAction</div>
+    <section>CallToAction</section>
   )
 }
 

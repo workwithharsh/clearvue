@@ -1,7 +1,7 @@
 
 function ShopHero() {
   return (
-    <div>ShopHero</div>
+    <section>ShopHero</section>
   )
 }
 

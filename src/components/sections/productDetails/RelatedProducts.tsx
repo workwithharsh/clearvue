@@ -1,7 +1,7 @@
 
 function RelatedProducts() {
   return (
-    <div>RelatedProducts</div>
+    <section>RelatedProducts</section>
   )
 }
 

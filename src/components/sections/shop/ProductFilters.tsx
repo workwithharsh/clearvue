@@ -1,7 +1,7 @@
 
 function ProductFilters() {
   return (
-    <div>ProductFilters</div>
+    <section>ProductFilters</section>
   )
 }
 

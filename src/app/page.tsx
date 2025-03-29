@@ -1,4 +1,6 @@
-import { CallToAction, Category, Faq, FeaturedProducts, Hero, NewArrivals, Services, Testimonial } from "@/components/sections";
+import {
+  CallToAction, Category, Faq, FeaturedProducts, Hero, NewArrivals, Services
+} from "@/components/sections";
 
 /**
  * Home page structure component for route '/'
@@ -13,7 +15,6 @@ function HomePage() {
       <Services />
       <NewArrivals />
       <FeaturedProducts />
-      <Testimonial />
       <Faq />
       <CallToAction />
     </main>

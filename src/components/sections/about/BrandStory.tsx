@@ -1,7 +1,7 @@
 
 function BrandStory() {
   return (
-    <div>BrandStory</div>
+    <section>BrandStory</section>
   )
 }
 

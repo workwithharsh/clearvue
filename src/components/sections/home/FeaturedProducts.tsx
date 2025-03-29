@@ -1,7 +1,7 @@
 
 function FeaturedProducts() {
   return (
-    <div>FeaturedProducts</div>
+    <section>FeaturedProducts</section>
   )
 }
 

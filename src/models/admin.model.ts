@@ -6,7 +6,6 @@ import mongoose from "mongoose";
 export interface IAdmin extends mongoose.Document{
     firstName: string,
     lastName: string,
-    avatar: string,
     email: string,
     phone: string,
     password: string,
@@ -41,10 +40,6 @@ const AdminSchema = new mongoose.Schema<IAdmin>({
         type: String,
         required: true,
         trim: true,
-    },
-    avatar: {
-        type: String, // Cloudinary URI
-        required: true,
     },
     password: {
         type: String,

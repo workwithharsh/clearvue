@@ -1,7 +1,7 @@
 
 function WhyChooseUs() {
   return (
-    <div>WhyChooseUs</div>
+    <section>WhyChooseUs</section>
   )
 }
 

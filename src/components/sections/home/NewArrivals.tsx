@@ -1,7 +1,7 @@
 
 function NewArrivals() {
   return (
-    <div>NewArrivals</div>
+    <section>NewArrivals</section>
   )
 }
 

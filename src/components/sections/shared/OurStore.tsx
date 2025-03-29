@@ -1,7 +1,7 @@
 
 function OurStore() {
   return (
-    <div>OurStore</div>
+    <section>OurStore</section>
   )
 }
 

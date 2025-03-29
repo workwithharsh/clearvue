@@ -1,7 +1,7 @@
 
 function ProductInfo() {
   return (
-    <div>ProductInfo</div>
+    <section>ProductInfo</section>
   )
 }
 

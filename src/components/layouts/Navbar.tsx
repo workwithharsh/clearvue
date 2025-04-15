@@ -1,11 +1,7 @@
-
-/**
- * Navbar component for the application
- * 
- * @returns {JSX.Element}
- */
-export function Navbar() {
+function Navbar() {
   return (
     <nav>Navbar</nav>
   )
 }
+
+export default Navbar

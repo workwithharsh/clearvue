@@ -1,11 +1,7 @@
-
-/**
- * Footer component for the application
- * 
- * @returns {JSX.Element}
- */
-export function Footer() {
+function Footer() {
   return (
     <footer>Footer</footer>
   )
 }
+
+export default Footer

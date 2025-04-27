@@ -45,7 +45,7 @@ const bannerSchema: Schema<Banner> = new Schema(
     priorityOrder: {
       type: Number,
       min: 1,
-      max: 5,
+      max: 10,
       required: true,
     },
     isActive: {

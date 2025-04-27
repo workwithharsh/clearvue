@@ -42,20 +42,17 @@ const userSchema: Schema<User> = new Schema(
       unique: true,
       trim: true,
       lowercase: true,
-      match: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
     },
     phone: {
       type: String,
       required: true,
       unique: true,
       trim: true,
-      match: /^\d{10}$/,
     },
     address: {
       street: {
         type: String,
         required: true,
-        trim: true,
       },
       city: {
         type: String,

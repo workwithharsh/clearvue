@@ -17,6 +17,7 @@ const productVariantSchema: Schema<ProductVariant> = new Schema(
       type: String,
       required: true,
       trim: true,
+      lowercase: true,
     },
     attribute: {
       type: String,
@@ -28,6 +29,7 @@ const productVariantSchema: Schema<ProductVariant> = new Schema(
       {
         type: String,
         required: true,
+        lowercase: true,
       },
     ],
     products: [
